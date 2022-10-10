@@ -18,7 +18,7 @@ Before running this project you will need to install the recommended setup:
 If you already have Node installed check with `node --version` that you are using version **14.16** or above **16.11**
 
 ### Installation
-Download or clone this repo here [Ashia V1](https://FrogDotNet@dev.azure.com/FrogDotNet/ASHIA/_git/ASHIA)
+Download or clone this repo here [Ashia V1](https://github.com/MichaelWorms/Ashia.git)
 
 Open up a terminal within the project root folder and install the packages using `yarn install`
 
