@@ -1,5 +1,49 @@
-# Nuxt 3 Starter
-This repo contains a fully configured nuxt 3 instance supporting TypeScript and several considered as useful libraries, fully configured and ready to use in real world projects! Nuxt 3 is a JavaScript meta framework on Vue 3 [learn more](https://v3.nuxtjs.org/guide/concepts/introduction).
+# Ashia V1 
+This repo contains the starter project for ASHIA V1, configured with tailwind CSS, Storybook, ViTest and Nuxt 3. Nuxt 3 is a JavaScript meta framework on Vue 3 [learn more](https://v3.nuxtjs.org/guide/concepts/introduction).
+
+## Getting Started
+
+### Prequisites
+Before running this project you will need to install the recommended setup: 
+
+- Node.js (latest LTS version) [download](https://nodejs.org/en/download)
+- Visual Studio Code or a similar IDE [download](https://code.visualstudio.com)
+- Volar Extension [download](https://marketplace.visualstudio.com/items?itemName=vue.volar)
+  - Either enable [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471) (recommended)
+  - Or add **Typescript Vue Plugin (Volar)** [download](https://marketplace.visualstudio.com/items?itemName=vue.vscode-typescript-vue-plugin)
+- Yarn Package Manager
+  - If already using NPM install using `npm install -g yarn`
+  - Otherwise download yarn [here](https://yarnpkg.com/getting-started/install)
+
+If you already have Node installed check with `node --version` that you are using version **14.16** or above **16.11**
+
+### Installation
+Download or clone this repo here [Ashia V1](https://FrogDotNet@dev.azure.com/FrogDotNet/ASHIA/_git/ASHIA)
+
+Open up a terminal within the project root folder and install the packages using `yarn install`
+
+The project should be ready to run.
+
+
+### Running Nuxt 3
+Using a terminal in the project root after installing the packages, the following commands are used to run Nuxt in different states: 
+
+- `yarn run dev` Starts the application with a local server
+- `yarn run build` Packages the nuxt application for deployment
+- `yarn run generate` Pre Renders the application and serves the pages as a static website (no SSR)
+- `yarn run preview` Starts a server to view the application after running the **build** commands
+
+### Starting Storybook
+Storybook can be started in a separate terminal instance to the nuxt application. Open a new terminal in the project and use `yarn run storybook` to start the storybook app
+
+`yarn run build:storybook` will package the storybook for deployment.
+
+### Testing
+Multiple tests can be run using the following commands in terminal
+
+- `yarn run test` runs a normal test (currently using Vitest)
+- `yarn run test:ui` runs a test with a UI display
+- `yarn run test:coverage` runs a test with a coverage report
 
 ## Vite
 Vite (French word for "quick", pronounced /vit/, like "veet") is a build tool that aims to provide a faster and leaner development experience for modern web projects. 
